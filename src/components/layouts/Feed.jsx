@@ -13,7 +13,10 @@ const Feed = () => {
     <div className='grid grid-cols-4 gap-6 ml-6 m-8 bg-backgroundImage  '>
       {testData.map((item, key) => <Card value={item} key={key} />)}
       {renderAdvanceSearch && 
-        <SearchPopUp/>
+      
+          <SearchPopUp/>
+        
+        
       }
          
     </div>

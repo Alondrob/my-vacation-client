@@ -6,9 +6,9 @@ const DateSearchBar = ({ handleDate }) => {
       {/* fromDate */}
       <div className="text-center">
         <input
-          className="bg-slate-50 hover:bg-red-200 rounded-md h-12 w-80  text-center mb-8 "
+          className="block text-center italic  hover:bg-purple-200 font-bold rounded-2xl border-2 border-sky-900 w-96 h-16 space-y-4"
           type="date"
-          onChange={(e) => handleDate(e.target.value)}
+      
           
         />
      
